@@ -90,8 +90,10 @@ After build, backend can serve frontend from `frontend/dist` on `http://localhos
 
 - Kept persistence file-based (JSON) to avoid database setup and keep the assignment lightweight.
 - File-based storage is simple but not ideal for concurrent production workloads.
-- Added both root and versioned API routes to match assignment endpoint contract while preserving structured routing style.
-- Kept frontend minimal and functional over advanced styling.
+- Added both root and versioned API routes to match the assignment contract while preserving a structured route layout.
+- Kept the frontend intentionally minimal and functional so the focus stays on correctness and task flow.
+
+Short note: This solution favors simplicity and clarity over production-scale infrastructure. I used JSON-file persistence and a lean UI to keep the feature set easy to understand, quick to run, and aligned with a small assignment scope.
 
 ## Optional Bonus Status
 
@@ -104,7 +106,7 @@ After build, backend can serve frontend from `frontend/dist` on `http://localhos
 ## Submission Checklist
 
 - Includes setup and run instructions in this README.
-- Includes assumptions and trade-offs in this README.
+- Includes a short assumptions and trade-offs note in this README.
 - Interface is intentionally simple; focus is on functionality, structure, and correctness.
 
 ## 2-Minute Demo Flow
